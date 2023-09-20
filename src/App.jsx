@@ -6,7 +6,7 @@ import Projects from "./pages/projects/projects";
 function App() {
 	return (
 		<>
-			<h1>Currently updating! Kindly check back shortly.</h1>
+			<h1>Currently updating. Kindly check back shortly!</h1>
 		</>
 	);
 }
