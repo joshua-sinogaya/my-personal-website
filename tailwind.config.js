@@ -4,8 +4,30 @@ export default {
 	theme: {
 		extend: {},
 	},
-	plugins: [require("daisyui")],
 	daisyui: {
-		themes: ["dracula"],
+		themes: [
+			{
+				mytheme: {
+					primary: "#239578",
+
+					secondary: "#a02353",
+
+					accent: "#2c3743",
+
+					neutral: "#1a232c",
+
+					"base-100": "#090909",
+
+					info: "#99f6e4",
+
+					success: "#d9f99d",
+
+					warning: "#fde047",
+
+					error: "#e11d48",
+				},
+			},
+		],
 	},
+	plugins: [require("daisyui")],
 };

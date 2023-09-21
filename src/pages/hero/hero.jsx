@@ -1,20 +1,11 @@
-import silpe from "../../assets/silpe.jpg";
+import silpe from "../../assets/silpe2.jpg";
 
 const Hero = () => {
 	return (
 		<>
-			<div className='hero min-h-screen bg-base-200'>
-				<div className='hero-content flex-col lg:flex-row'>
-					<img src={silpe} className='max-w-sm rounded-lg shadow-2xl' />
-					<div>
-						<h1 className='text-5xl font-bold'>Box Office News!</h1>
-						<p className='py-6'>
-							Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-							excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-							et a id nisi.
-						</p>
-						<button className='btn btn-primary'>Get Started</button>
-					</div>
+			<div className='hero min-h-screen min-w-full bg-base-100'>
+				<div className='hero-content flex-col'>
+					<img src={silpe} alt='myImage' className='max-w-lg' />
 				</div>
 			</div>
 		</>
