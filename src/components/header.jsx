@@ -1,7 +1,7 @@
 const Header = () => {
 	return (
 		<>
-			<div className='navbar'>
+			<div className='navbar overflow-x-hidden'>
 				<div className='navbar-start'>
 					<div className='dropdown'>
 						<label tabIndex={0} className='btn btn-ghost lg:hidden'>

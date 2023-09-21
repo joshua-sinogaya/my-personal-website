@@ -1,7 +1,7 @@
 const Contact = () => {
 	return (
 		<>
-			<div className='hero min-h-screen w-full bg-base-200'>
+			<div className='hero min-h-screen w-full bg-base-200 overflow-x-hidden'>
 				<div className='hero-content flex-col'>
 					<div className='text-center'>
 						<h1 className='text-5xl font-bold'>Let&apos;s Work Together!</h1>
