@@ -3,48 +3,28 @@ import project1 from "../../assets/project1.jpg";
 const Projects = () => {
 	return (
 		<>
-			<div className='carousel carousel-center max-w-md p-4 space-x-4 bg-neutral rounded-box'>
-				<div className='carousel-item'>
-					<img
-						src={"/images/stock/photo-1559703248-dcaaec9fab78.jpg"}
-						className='rounded-box'
-					/>
-				</div>
-				<div className='carousel-item'>
-					<img
-						src='/images/stock/photo-1565098772267-60af42b81ef2.jpg'
-						className='rounded-box'
-					/>
-				</div>
-				<div className='carousel-item'>
-					<img
-						src='/images/stock/photo-1572635148818-ef6fd45eb394.jpg'
-						className='rounded-box'
-					/>
-				</div>
-				<div className='carousel-item'>
-					<img
-						src='/images/stock/photo-1494253109108-2e30c049369b.jpg'
-						className='rounded-box'
-					/>
-				</div>
-				<div className='carousel-item'>
-					<img
-						src='/images/stock/photo-1550258987-190a2d41a8ba.jpg'
-						className='rounded-box'
-					/>
-				</div>
-				<div className='carousel-item'>
-					<img
-						src='/images/stock/photo-1559181567-c3190ca9959b.jpg'
-						className='rounded-box'
-					/>
-				</div>
-				<div className='carousel-item'>
-					<img
-						src='/images/stock/photo-1601004890684-d8cbf643f5f2.jpg'
-						className='rounded-box'
-					/>
+			<div id='projects' className='hero min-h-screen bg-red-500'>
+				<div className='hero-content'>
+					<div className='card w-full bg-base-100 shadow-xl'>
+						<figure>
+							<img src={project1} alt='ProjectImage' />
+						</figure>
+						<div className='card-body'>
+							<h2 className='card-title'>
+								Project Name
+								<div className='badge badge-secondary'>Code</div>
+								<div className='badge badge-secondary'>Live</div>
+							</h2>
+							<p>
+								Tempor commodo pariatur amet sit duis sit sunt do ex elit
+								aliqua.
+							</p>
+							<div className='card-actions justify-end'>
+								<div className='badge badge-outline'>Fashion</div>
+								<div className='badge badge-outline'>Products</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</>
