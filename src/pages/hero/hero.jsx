@@ -12,7 +12,7 @@ const Hero = () => {
 					<div className='hidden lg:block'>
 						<h1 className='text-5xl font-bold'>I&apos;m Josh.</h1>
 						<h1 className='text-3xl font-semibold mt-5'>
-							Full Stack Developer
+							Frontend && Backend Dev
 						</h1>
 						<a className='btn bg-white text-black mt-5' href='#about'>
 							About me
