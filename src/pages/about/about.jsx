@@ -12,8 +12,7 @@ const About = () => {
 						</h1>
 						<div className=''>
 							<h1 className='text-center lg:text-start text-2xl md:text-3xl lg:text-4xl font-semibold mt-5'>
-								Full Stack Developer && Software Developer. Fugiat sit eiusmod
-								quis laborum proident culpa voluptate ut in.
+								Full Stack Developer | Technologist
 							</h1>
 							<h1 className='text-center lg:text-justify text-1xl md:text-2xl lg:text-3xl font-regular mt-5'>
 								Industrious and career-focused fresh graduate, with a strong
