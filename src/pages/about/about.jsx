@@ -1,4 +1,5 @@
 import Experience from "../../assets/experience.png";
+import Education from "../../assets/education.png";
 
 const About = () => {
 	return (
@@ -33,7 +34,7 @@ const About = () => {
 							</p>
 						</div>
 						<div className='border border-accent rounded-2xl p-5 text-center w-[47%]'>
-							<img src={Experience} alt='' className='h-[2rem] block mx-auto' />
+							<img src={Education} alt='' className='h-[2rem] block mx-auto' />
 							<p className='text-2xl font-bold mb-5'>Education</p>
 							<p className='text-xl font-regular'>BS Computer Science</p>
 							<p className='text-xl font-regular'>
