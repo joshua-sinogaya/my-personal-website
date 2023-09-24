@@ -41,7 +41,11 @@ const Header = () => {
 						</ul>
 					</div>
 					<a className='invisible lg:visible lg:me-[30rem]'>
-						<img src={logo} alt='' className='max-w-[45px]' />
+						<img
+							src={logo}
+							alt=''
+							className='max-w-[45px] hover:scale-125 transition duration-300 ease-in-out'
+						/>
 					</a>
 				</div>
 				<div className='navbar-center hidden lg:flex'>

@@ -26,9 +26,9 @@ export default {
 
 					success: "#d9f99d",
 
-					warning: "#fde047",
+					warning: "#3b82f6",
 
-					error: "#e11d48",
+					error: "#ef4444",
 				},
 			},
 		],

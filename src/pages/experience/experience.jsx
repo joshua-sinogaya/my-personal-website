@@ -4,7 +4,7 @@ const Experience = () => {
 	return (
 		<>
 			<div
-				id='about'
+				id='experience'
 				className='container min-w-full text-center min-h-screen flex justify-center bg-base-100 text-white rounded-t-3xl mt-[-3rem]'
 			>
 				<div className='flex-col justify-center py-10 pb-[7rem] lg:w-[70%]'>
