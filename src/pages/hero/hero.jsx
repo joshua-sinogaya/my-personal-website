@@ -4,19 +4,14 @@ import "./hero.css";
 const Hero = () => {
 	return (
 		<>
-			<div
-				id='home'
-				className='hero min-h-screen overflow-x-hidden bg-base-100'
-			>
+			<div id='home' className='hero min-h-screen bg-base-100'>
 				<div className='hero-content flex-col lg:flex-row-reverse mt-[-5rem] 4fiddy:mt-0'>
-					<h1 className='text-5xl font-bold lg:hidden'>I&apos;m Josh.</h1>
+					<h1 className='text-5xl font-bold lg:hidden'>&lt;Josh /&gt;</h1>
 					<div className='hidden lg:block'>
-						<h1 className='text-5xl font-bold'>I&apos;m Josh.</h1>
-						<h1 className='text-3xl font-semibold mt-5'>
-							Frontend && Backend Developer
-						</h1>
-						<a className='btn bg-white text-black mt-5' href='#about'>
-							About me
+						<h1 className='text-5xl font-bold'>&lt;Josh /&gt;</h1>
+						<h1 className='text-3xl font-semibold mt-5'>Full Stack Dev</h1>
+						<a className='btn glass mt-5' href='#'>
+							Download CV
 						</a>
 					</div>
 					<img
@@ -24,13 +19,11 @@ const Hero = () => {
 						alt='myImage'
 						className='w-full rounded-full max-w-lg lg:pe-5'
 					/>
-					<h1 className='text-3xl font-semibold lg:hidden'>
-						Frontend && Backend Developer
-					</h1>
+					<h1 className='text-3xl font-semibold lg:hidden'>Full Stack Dev</h1>
 					<div className='flex flex-row lg:hidden'>
 						<div className='navbar-end'>
-							<a className='btn bg-white text-black' href='#about'>
-								About me
+							<a className='btn glass mt-5' href='#'>
+								Download CV
 							</a>
 						</div>
 					</div>
