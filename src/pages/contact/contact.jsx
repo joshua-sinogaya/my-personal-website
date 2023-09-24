@@ -3,7 +3,7 @@ const Contact = () => {
 		<>
 			<div
 				id='contact'
-				className='hero min-h-screen w-full bg-base-200 overflow-x-hidden'
+				className='hero min-h-screen w-full bg-base-200 rounded-t-3xl mt-[-2rem] py-10'
 			>
 				<div className='hero-content flex-col'>
 					<div className='text-center'>

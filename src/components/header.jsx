@@ -1,3 +1,5 @@
+import logo from "../assets/logo.png";
+
 const Header = () => {
 	return (
 		<>
@@ -38,7 +40,9 @@ const Header = () => {
 							</li>
 						</ul>
 					</div>
-					<a className='btn btn-ghost normal-case text-xl'>Josh S.</a>
+					<a className=''>
+						<img src={logo} alt='' className='max-w-[45px]' />
+					</a>
 				</div>
 				<div className='navbar-center hidden lg:flex'>
 					<ul className='menu menu-horizontal px-1'>

@@ -24,7 +24,7 @@ const About = () => {
 					</div>
 					<div className='my-5 lg:mt-[3.5rem] lg:w-[70%]'>
 						<div className='flex flex-col md:flex-row justify-around'>
-							<div className='flex-col bg-black text-white p-5 rounded-2xl mt-5 lg:mt-0 md:w-[49%]'>
+							<div className='flex-col bg-base-100 text-white p-5 rounded-2xl mt-5 lg:mt-0 md:w-[49%]'>
 								<h1 className='text-start text-2xl md:text-3xl font-semibold'>
 									Languages
 								</h1>
@@ -43,7 +43,7 @@ const About = () => {
 									<h1 className='bg-white text-black p-2 rounded-2xl'>Java</h1>
 								</div>
 							</div>
-							<div className='flex-col bg-black text-white p-5 rounded-2xl mt-5 lg:mt-0 md:w-[49%]'>
+							<div className='flex-col bg-base-100 text-white p-5 rounded-2xl mt-5 lg:mt-0 md:w-[49%]'>
 								<h1 className='text-start text-2xl md:text-3xl font-semibold'>
 									Libraries/Frameworks
 								</h1>
@@ -65,7 +65,7 @@ const About = () => {
 								</div>
 							</div>
 						</div>
-						<div className='flex flex-col bg-black text-white p-5 rounded-2xl mt-5'>
+						<div className='flex flex-col bg-base-100 text-white p-5 rounded-2xl mt-5'>
 							<h1 className='text-start text-2xl md:text-3xl font-semibold'>
 								Tools/IDE
 							</h1>

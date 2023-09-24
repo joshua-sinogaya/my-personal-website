@@ -1,4 +1,5 @@
 import silpe from "../../assets/silpe2.jpg";
+import "./hero.css";
 
 const Hero = () => {
 	return (
@@ -12,7 +13,7 @@ const Hero = () => {
 					<div className='hidden lg:block'>
 						<h1 className='text-5xl font-bold'>I&apos;m Josh.</h1>
 						<h1 className='text-3xl font-semibold mt-5'>
-							Frontend && Backend Dev
+							Frontend && Backend Developer
 						</h1>
 						<a className='btn bg-white text-black mt-5' href='#about'>
 							About me
@@ -24,7 +25,7 @@ const Hero = () => {
 						className='w-full rounded-full max-w-lg lg:pe-5'
 					/>
 					<h1 className='text-3xl font-semibold lg:hidden'>
-						Full Stack Developer
+						Frontend && Backend Developer
 					</h1>
 					<div className='flex flex-row lg:hidden'>
 						<div className='navbar-end'>
