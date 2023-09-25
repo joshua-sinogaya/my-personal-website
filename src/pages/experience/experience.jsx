@@ -156,7 +156,7 @@ const Experience = () => {
 											<div className='flex flex-col'></div>
 											<p className='text-start text-xl'>.NET</p>
 											<p className='text-start text-[0.75rem] text-gray-400'>
-												Backend
+												Frontend
 											</p>
 										</div>
 									</div>
